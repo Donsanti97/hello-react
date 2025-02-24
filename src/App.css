@@ -1,0 +1,16 @@
+.App{
+  min-height: 100vh;/*Permite que se adapte a la altura del navegador, es decir el 100% de la pantalla verticalmente*/
+  display: flex;/*Sirve para definir como se van a ubicar los elementos dentro del contenedor*/
+  flex-wrap: wrap;/*Si un elemento toma todo el ancho del contenedor los siguientes elementos se ubicarán debajo de el*/
+  align-items: center;/*Alinea todos los elementos al centro horizontalmente*/
+  justify-content: center;/*los centra verticalmente*/
+  text-align: center;/*Alineación del texto al centro*/
+}
+
+.contenedor-principal{
+  min-height: 600px;/*Dependiendo de la cantidad de elementos que hayan el tamaño se adaptará*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
